@@ -1,0 +1,15 @@
+@import 'banner-vars';
+
+.banner {
+    div{
+        .home{
+            background-color: $banner-background;
+            color: $banner-color;
+        }
+    }
+    div {
+        .principal {
+            color: $nome-principal
+        }
+    }
+}
