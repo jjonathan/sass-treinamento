@@ -6,6 +6,23 @@
   color: #b531a3;
 }
 
+#content {
+  background: blue;
+  font-size: 14px;
+  border-color: green;
+  border-style: "solid";
+  border-width: 2px;
+}
+#content div h1 {
+  font-size: 30px;
+}
+#content a {
+  color: blue;
+}
+#content a:hover {
+  color: green;
+}
+
 .menu div .item {
   background-color: yellow;
 }

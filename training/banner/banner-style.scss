@@ -6,10 +6,28 @@
             background-color: $banner-background;
             color: $banner-color;
         }
-    }
-    div {
         .principal {
             color: $nome-principal
         }
+    }
+}
+
+#content {
+    background: $banner-background;
+    font-size: 14px;
+    div h1 {
+         font-size: 30px;
+    }
+    a {
+        color: $banner-background;
+    }
+    a:hover {
+        color: $banner-color;
+    }
+
+    border: {
+        color: $banner-color;
+        style: 'solid';
+        width: 2px;
     }
 }

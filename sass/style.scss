@@ -1,0 +1,30 @@
+$white: #fff;
+$pink: #d75893;
+
+body{
+    margin: 0px;
+}
+#menu {
+    width: 100%;
+    background: $pink;
+    margin: 0px;
+    ul {
+        width: 1000px;
+        list-style: none;
+        margin: 0 auto;
+        li {
+            display: inline;
+            a {
+                padding: 10px 15px;
+                text-decoration: none;
+                color: $white;
+                display: inline-block;
+                &:hover, &:focus {
+                    color: $pink;
+                    background: $white;
+                }
+            }
+        }
+    }
+
+}
