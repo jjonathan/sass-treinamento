@@ -1,0 +1,24 @@
+@mixin colorir($cor1, $cor2:black){
+    background-color: $cor1;
+    color: $cor2
+}
+
+@mixin borda($alt:1px, $larg: 2px){
+
+}
+
+.quadrado {
+    border-style: solid;
+    border-width: 5px;
+    border-color: blue;
+}
+
+h1 {
+    @include colorir(blue);
+    @extend .quadrado;
+}
+
+div.color {
+    width: 100%;
+    @include colorir(red)
+}

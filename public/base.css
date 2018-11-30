@@ -1,0 +1,160 @@
+body {
+  margin: 0px;
+}
+
+#menu {
+  width: 100%;
+  background: #d75893;
+  margin: 0px;
+}
+#menu ul {
+  width: 1000px;
+  list-style: none;
+  margin: 0 auto;
+}
+#menu ul li {
+  display: inline;
+}
+#menu ul li a {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+}
+#menu ul li a:hover, #menu ul li a:focus {
+  color: #d75893;
+  background: #fff;
+}
+
+body {
+  color: #ffff66;
+  background: #333333;
+}
+
+.quadrado, h1 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: blue;
+}
+
+h1 {
+  background-color: blue;
+  color: black;
+}
+
+div.color {
+  width: 100%;
+  background-color: red;
+  color: black;
+}
+
+body {
+  background: blue;
+  color: yellow;
+}
+
+div.each-1 {
+  background: green;
+}
+
+div.each-2 {
+  background: yellow;
+}
+
+div.each-3 {
+  background: blue;
+}
+
+div.each-4 {
+  background: black;
+}
+
+div.for-1 {
+  background: #ff6680;
+}
+
+div.for-2 {
+  background: #ff99aa;
+}
+
+div.for-3 {
+  background: #ffccd5;
+}
+
+div.for-4 {
+  background: white;
+}
+
+.linha {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-l1, .col-l2, .col-l3, .col-l4, .col-l5, .col-l6, .col-l7, .col-l8, .col-l9, .col-l10, .col-l11, .col-l12 {
+  margin-left: auto;
+  left: auto;
+  right: auto;
+  float: left;
+}
+
+.col-l12 {
+  width: 100%;
+  background: #14273b;
+}
+
+.col-l11 {
+  width: 91.6666666667%;
+  background: #162c42;
+}
+
+.col-l10 {
+  width: 83.3333333333%;
+  background: #19314a;
+}
+
+.col-l9 {
+  width: 75%;
+  background: #1b3652;
+}
+
+.col-l8 {
+  width: 66.6666666667%;
+  background: #1e3c59;
+}
+
+.col-l7 {
+  width: 58.3333333333%;
+  background: #204161;
+}
+
+.col-l6 {
+  width: 50%;
+  background: #234669;
+}
+
+.col-l5 {
+  width: 41.6666666667%;
+  background: #254b70;
+}
+
+.col-l4 {
+  width: 33.3333333333%;
+  background: #285078;
+}
+
+.col-l3 {
+  width: 25%;
+  background: #2b5580;
+}
+
+.col-l2 {
+  width: 16.6666666667%;
+  background: #2d5a87;
+}
+
+.col-l1 {
+  width: 8.3333333333%;
+  background: #305f8f;
+}
+
+/*# sourceMappingURL=base.css.map */
